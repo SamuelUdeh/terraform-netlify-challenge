@@ -75,7 +75,9 @@ cloud {
 Update terraform.tfvars with your details:
 
 site_name   = "comforting-fudge-57ff13"   # Netlify site name
+
 repo_path   = "SamuelUdeh/terraform-netlify-challenge"
+
 repo_branch = "main"
 
 ### 5. Run Terraform
@@ -99,6 +101,7 @@ Apply complete! Resources: 0 added, 0 changed, 0 destroyed.
 
 Outputs:
 live_url = "https://comforting-fudge-57ff13.netlify.app"
+
 repo = "https://github.com/SamuelUdeh/terraform-netlify-challenge"
 
 📂 Project Structure
