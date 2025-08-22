@@ -132,25 +132,25 @@ Add your Terraform apply screenshot here for submission.
 
 I also wrote a blog post about this project, describing:
 
-Why I chose Netlify + HCP Terraform
+- Why I chose Netlify + HCP Terraform
 
-How the integration works
+- How the integration works
 
-Lessons learned from the challenge
+- Lessons learned from the challenge
 
 👉 [Add your blog link here]
 
 ✅ Deliverables Checklist
 
- Public GitHub repo with Terraform + site code
+ - Public GitHub repo with Terraform + site code
 
- Live site on Netlify
+ - Live site on Netlify
 
- Remote state configured in HCP Terraform
+ - Remote state configured in HCP Terraform
 
- Screenshot of a successful Terraform apply
+ - Screenshot of a successful Terraform apply
 
- README with setup instructions
+ - README with setup instructions
 
  Blog post (optional but recommended)
 
