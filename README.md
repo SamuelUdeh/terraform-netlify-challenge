@@ -102,7 +102,7 @@ live_url = "https://comforting-fudge-57ff13.netlify.app"
 repo = "https://github.com/SamuelUdeh/terraform-netlify-challenge"
 
 📂 Project Structure
-.
+```
 ├── site/                  # Static frontend files
 │   └── index.html
 ├── main.tf                # Resources & data sources
@@ -112,7 +112,7 @@ repo = "https://github.com/SamuelUdeh/terraform-netlify-challenge"
 ├── versions.tf            # Terraform + HCP remote backend
 ├── terraform.tfvars       # Site-specific inputs
 └── .gitignore             # Ignore local state & secrets
-
+```
 📸 Screenshot
 
 Add your Terraform apply screenshot here for submission.
