@@ -7,3 +7,7 @@ crash.log
 # Local env
 .env
 .env.*
+
+# Ignore personal or sensitive variable files
+terraform.tfvars
+*.auto.tfvars
