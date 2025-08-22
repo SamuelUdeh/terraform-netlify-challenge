@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Samuel Udeh Portfolio</title>
+  <style>
+    body { font-family: Arial; text-align: center; padding: 20px; }
+    #quote { font-style: italic; }
+  </style>
+</head>
+<body>
+  <h1>Samuel Udeh - Cloud Engineer Portfolio</h1>
+  <p>Welcome to my portfolio, built with Terraform and Netlify!</p>
+  <p id="quote"></p>
+  <script>
+    const quotes = ["Innovation distinguishes between a leader and a follower. - Steve Jobs", "The only way to do great work is to love what you do. - Steve Jobs"];
+    document.getElementById("quote").innerHTML = quotes[Math.floor(Math.random() * quotes.length)];
+  </script>
+</body>
+</html>
