@@ -33,11 +33,14 @@ Before you begin, ensure you have:
 ## ⚙️ Setup Steps
 
 ### 1. Clone the repo
-```bash
+
+```
 git clone https://github.com/SamuelUdeh/terraform-netlify-challenge.git
 cd terraform-netlify-challenge
+```
 
-## 2. Create a Netlify Site (UI one-time setup)
+
+### 2. Create a Netlify Site (UI one-time setup)
 
 In Netlify → New site from Git
 
@@ -75,10 +78,13 @@ site_name   = "comforting-fudge-57ff13"   # Netlify site name
 repo_path   = "SamuelUdeh/terraform-netlify-challenge"
 repo_branch = "main"
 
-5. Run Terraform
+### 5. Run Terraform
+
+```
 terraform init
 terraform plan
 terraform apply
+```
 
 
 When prompted:
@@ -150,5 +156,3 @@ Lessons learned from the challenge
 
 ---
 
-Would you like me to also **generate a quick architecture diagram (PNG)** you can add to the repo to visually show:  
-Terraform CLI → HCP Terraform Remote State → Netlify → Live Site?
