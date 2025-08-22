@@ -44,21 +44,21 @@ cd terraform-netlify-challenge
 
 In Netlify → New site from Git
 
-Connect your GitHub repo
+- Connect your GitHub repo
 
-Set Publish directory = site
+- Set Publish directory = site
 
-Leave the build command empty (pure HTML)
+- Leave the build command empty (pure HTML)
 
 Take note of the generated site name (e.g., comforting-fudge-57ff13).
 
 ### 3. Configure HCP Terraform Remote State
 
-Create an Organization and a Workspace in HCP Terraform
+- Create an Organization and a Workspace in HCP Terraform
 
-Add the following environment variable in workspace settings:
+- Add the following environment variable in workspace settings:
 
-NETLIFY_TOKEN → your Netlify PAT (Sensitive = ON)
+- NETLIFY_TOKEN → your Netlify PAT (Sensitive = ON)
 
 ### 4. Update Terraform Config
 
@@ -72,13 +72,13 @@ cloud {
 }
 
 
-Update terraform.tfvars with your details:
+- Update terraform.tfvars with your details:
 
-site_name   = "comforting-fudge-57ff13"   # Netlify site name
+- site_name   = "comforting-fudge-57ff13"   # Netlify site name
 
-repo_path   = "SamuelUdeh/terraform-netlify-challenge"
+- repo_path   = "SamuelUdeh/terraform-netlify-challenge"
 
-repo_branch = "main"
+- repo_branch = "main"
 
 ### 5. Run Terraform
 
@@ -100,9 +100,9 @@ Do you want to perform these actions in the workspace "portfolio-site-workspace"
 Apply complete! Resources: 0 added, 0 changed, 0 destroyed.
 
 Outputs:
-live_url = "https://comforting-fudge-57ff13.netlify.app"
+- live_url = "https://comforting-fudge-57ff13.netlify.app"
 
-repo = "https://github.com/SamuelUdeh/terraform-netlify-challenge"
+- repo = "https://github.com/SamuelUdeh/terraform-netlify-challenge"
 
 📂 Project Structure
 ```
@@ -122,11 +122,11 @@ Add your Terraform apply screenshot here for submission.
 
 🔑 Key Points
 
-Secrets (NETLIFY_TOKEN) are never stored in the repo — only in the HCP Terraform workspace.
+- Secrets (NETLIFY_TOKEN) are never stored in the repo — only in the HCP Terraform workspace.
 
-Remote state stored in HCP Terraform ensures collaboration and state safety.
+- Remote state stored in HCP Terraform ensures collaboration and state safety.
 
-Re-runnable: anyone with the repo + correct workspace/env vars can do terraform init/plan/apply.
+- Re-runnable: anyone with the repo + correct workspace/env vars can do terraform init/plan/apply.
 
 ✍️ Blog Post
 
