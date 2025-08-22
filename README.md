@@ -62,15 +62,16 @@ Take note of the generated site name (e.g., comforting-fudge-57ff13).
 
 ### 4. Update Terraform Config
 
-Edit versions.tf to use your HCP Terraform org/workspace:
-
+- Edit versions.tf to use your HCP Terraform org/workspace:
+  
+```
 cloud {
   organization = "your-org"
   workspaces {
     name = "portfolio-site-workspace"
   }
 }
-
+```
 
 - Update terraform.tfvars with your details:
 
